@@ -12,9 +12,6 @@ public class Customer {
         this.firstName = f;
         this.lastName = l;
         this.socSecurityNum =ssn;
-        //this.billingAddress = b;
-        // this.shippingAddress = s;
-
     }
 
     public void setFirstName(String firstName) {
