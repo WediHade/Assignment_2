@@ -7,11 +7,11 @@ public class Customer {
     private Address billingAddress;
     private Address shippingAddress;
 
-    public Customer(String f, String l, String ssn){
+    public Customer(String firstName, String lastName, String socSecurityNum){
 
-        this.firstName = f;
-        this.lastName = l;
-        this.socSecurityNum =ssn;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.socSecurityNum = socSecurityNum;
     }
 
     public void setFirstName(String firstName) {
