@@ -26,7 +26,8 @@ public class Computer {
 
     @Override
     public String toString() {
-        return "The computer power is " + computePower();
+        return "Computer power: " + computePower() + "\nManufacturer: " + manufacturer +
+                "\nProcessor: " + processor + "\nProcessorSpeed: " + processorSpeed + "\nRam Size: " + ramSize;
     }
 
     @Override
